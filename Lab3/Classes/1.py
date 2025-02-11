@@ -1,9 +1,9 @@
 class StringManipulator:
     def getString(self):
-        self.input_string = input("Enter a string: ")
+        self.iss = input("Enter a string: ")
         
     def printString(self):
-        print(self.input_string.upper())
+        print(self.iss.upper())
         
 str_manip = StringManipulator()
 str_manip.getString()
