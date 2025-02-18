@@ -12,3 +12,4 @@ for item in data["imdata"]:
     speed = attributes.get("speed", "inherit")
     mtu = attributes.get("mtu", "")
     print(f"{dn:<50} {description:<20} {speed:<8} {mtu:<6}")
+    
