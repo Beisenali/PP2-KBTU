@@ -1,0 +1,5 @@
+txt = input()
+uc = sum(1 for c in txt if c.isupper())
+lc = sum(1 for c in txt if c.islower())
+print(uc)
+print(lc)
